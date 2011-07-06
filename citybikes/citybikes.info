@@ -1,0 +1,7 @@
+name = CityBikes
+description = CityBikes core. Integrates with the CityBikes API. Provides a views display plugin.
+core = 7.x
+dependencies[] = "views"
+files[] = "citybikes.views.inc"
+files[] = "citybikes_style_table.inc"
+package = "CityBikes"
