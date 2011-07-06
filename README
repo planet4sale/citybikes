@@ -1,0 +1,22 @@
+citybikes?
+====================
+...is an implementation of a CityBikes Module for Drupal 7.  CityBikes "http://www.citybik.es/" website
+
+INSTALLATION
+============
+- Install Drupal 7.
+- Add modules via ftp. 
+- Navigate from Drupal management menu to modules page. Enable modules CityBikes (core), feeds fetcher, and 1 other module in CityBikes package.
+- Go to "import" page  (navigation menu) to try out a few of the API calls. Select an importer. Enter a url  (e.g. examples at CityBikes http://api.citybik.es/ page)   in "URL" textfield. Hit import button.
+- If import fails. It may be necessary to alter config variable.
+
+TODO
+====
+- Documentation on architecture
+- Count number of "node modules". Recommend user requires only 1 node type enabled 
+- Improve UI (alllow logical search terms e,g, name of artist, then wrap in "url request" request before sending request)
+- Feeds fetcher module needs testing / improvements
+- Import search api requests (example at CityBikes "http://api.citybik.es/" page) 
+- Module with hooks for fields widget/views where that field hold multiple items (unlimited cardinality) e.g. ?
+- Mapper to import data for field holding multiple items. Investigate functionality of both JSONpath and XMLpath parsers 
+- Extra tables? 
